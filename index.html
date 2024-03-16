@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv"X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width" , inital-scale="1.0">
+    <title>Prathamesh Portfolio</title>
+    <link rel=<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(1, 1, 14);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a {
+            color: rgb(111, 111, 220);
+            font-size: 1.0rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(93, 93, 157);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3.0rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #27212d;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: yellow;
+        }
+
+        .text-gray {
+            color: rgb(80, 50, 50);
+        }
+
+        #element {
+            color: rgb(112, 112, 231);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 54px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-New {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            bottom: -9px;
+        }
+        .image-second {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            bottom: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 44px;
+            width: 120px;
+            font-size: 14PX;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 40px;
+            width: 150px;
+            font-size: 9px;
+            color: rgb(104, 104, 185);
+
+        }
+
+        .ThirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .ThirdSection {
+            font-size: 1.4rem;
+        }
+
+        .description {
+            position: center;
+            margin: 20px 0;
+            margin: 21px 0;
+
+            font-size: 12px;
+        }
+
+        .New .buttons {
+            padding: 50px 0;
+        }
+
+        .New .btn {
+            margin: 0px 400px;
+            left: 40px;
+            padding: 12px;
+            background: #27212d;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            position: center;
+        }
+
+        footer {
+            background-color: #27212d;
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer .footer-Section {
+            list-style: none;
+            text-align: right;
+        }
+
+        .footer>div {
+            width: 222px;
+        }
+
+        .footer .footer-Socials {
+            margin: 20px;
+            align-items: center;
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(121, 121, 208);
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prathamesh Portfolio</div>
+            <div class="right" class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <ul>
+                        <li class="nav-item"><a href="#home-section" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#About-section" class="nav-link">Experince</a></li>
+                        <li class="nav-item"><a href="#Project-section" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#Contact-section" class="nav-link">Contact Me</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home-section" class="hero">
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple">Prathamesh</span>
+                    <div>and I am a Passionate</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <a href="Prathamesh Dhanawate_Resume.pdf" download="">
+                            <button class="btn">Resume</button></a>
+                        <a href="https://github.com/Prathameshd19" download="">
+                            <button class="btn">Visit Github</button></a>
+
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="imag2.png" alt="">                  
+                </div>
+
+            </section>
+            <hr>
+            <section id="About-section" class="hero">
+            <section class="secondSection">
+                <span class="text-gray"> What I have done so far</span>
+                <h1>Work Experince</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-New" src="HTML.png" alt="">
+                        <div class="vertical-title">Frontend Developer</div>
+                        <div class="vertical-desc">
+                            A Web Developer creates and designs different websites,
+                            rofessionals in this field may also need to be able to ensure sites are compatible with
+                            multiple
+                            types of media.
+                        </div>
+
+                    </div>
+                    <div class="vertical">
+                        <img class="image-second" src="Python.jpg" alt="">
+                        <div class="vertical-title">Python Developer</div>
+                        <div class="vertical-desc">
+                            Develope and maintain Python based application and software systems. Write clean, efficient,
+                            and well documented code. Collaborate with cross- functional teams to design, develope and
+                            deploy software solutions.
+                        </div>
+
+                    </div>
+                  
+
+                </div>
+
+
+
+
+            </section>
+            <hr>
+            <section id="Project-section" class="hero">
+            <section class="ThirdSection" id="project-section">
+                <div class="New">
+                    <div class="row justify-content-center mb-5 pb-5">
+                        <div class="col-md-7 heading-section text-center ftco-animate">
+                            <h1 class="big big-2">Projects</h1>
+                            Below are the sample Data Analytics projects Python.
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-md-4 d-flex ftco-animate">
+                            <div class="blog-entry justify-content-end">
+                                <a href="https://github.com/Prathameshd19/IoT-Bridge-Monitoring-Project"
+                                    class="block-20 zoom-effect">
+                                </a>
+                                <div class="text mt-3 float-right d-block">
+
+                                    <h3 class="heading" style="    font-size: 1.0rem;
+                                    margin: 14px 0;"><a>
+                                            IoT Based Bridge Monitoring Projecct
+
+                                        </a></h3>
+                                    <div class="description">IOT Based Bridge Monitoring System
+                                        An IoT based bridge monitoring system is a system that uses wireless sensors and
+                                        communication devices to
+                                        collect and analyze data about the bridge condition and environment. This system
+                                        can help in detecting and
+                                        preventing bridge failures, damages, or disasters by providing real-time
+                                        information and alerts. This system can help indetecting and preventing
+                                        bridge failures, damages, or disasters by providing real-time information and
+                                        alerts.Skills</div>
+                                    <div class="buttons" style="margin: 0 2">
+                                        <a href="https://github.com/Prathameshd19/IoT-Bridge-Monitoring-Project"
+                                            download="">
+                                            <button class="btn">GitHub</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-First">
+                <h3>Prathamesh Portfolio</h3>
+            </div>
+            <div class="footer-Second">
+
+            </div>
+        </div>
+        <section id="Contact-section" class="hero"></section>
+        <div class="footer-Socials" style="margin: 0 70px;">
+            <a href="https://www.linkedin.com/in/prathamesh-dhanawate-962487282/" target="_blank">
+                <img src="LinkedIn.png" width="32px" height="32px" alt=""></a>
+
+            <a href="prathamesh19dhanawate@gmail.com" target="_blank">
+                <img src="Gmail.png" width="32" height="32" alt="Gmail logo"></a>
+        </div>
+        <div class="footer-rights">www.Prathamesh Portfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
